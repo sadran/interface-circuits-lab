@@ -1,0 +1,22 @@
+;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Fri Aug 25 22:41:17 2017
+;VERSION 0.2
+;FILE adc_temp.o
+Display_off <= USED 0
+Display_on <= USED 0
+__asm___10_ADC_temp_c_cwait____REV16 <= USED 0
+__asm___10_ADC_temp_c_cwait____REVSH <= USED 0
+__asm___10_ADC_temp_c_cwait____RRX <= USED 0
+cursor_blink <= USED 0
+cursor_off <= USED 0
+cursor_on <= USED 0
+lcd_define_char <= USED 0
+lcd_init <= USED 0
+lcd_putsf <= USED 0
+lcd_shift_left <= USED 0
+lcd_shift_right <= USED 0
+;FILE startup_lpc17xx.o
+;FILE system_lpc17xx.o
+SystemCoreClockUpdate <= USED 0
+__asm___16_system_LPC17xx_c_5d646a67____REV16 <= USED 0
+__asm___16_system_LPC17xx_c_5d646a67____REVSH <= USED 0
+__asm___16_system_LPC17xx_c_5d646a67____RRX <= USED 0

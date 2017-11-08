@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections
+-I "C:\Users\kargadan\Desktop\projects\keil\AZ 6_ADC\ADC_temp\RTE"
+-I "C:\Program Files (x86)\keil MKD 5\ARM\PACK\Keil\LPC1700_DFP\2.3.0"
+-I "C:\Program Files (x86)\keil MKD 5\ARM\CMSIS\Include"
+-D__UVISION_VERSION="514" -DLPC175x_6x
+-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d --feedback ".\ADC_temp.fed" "system_LPC17xx.c"

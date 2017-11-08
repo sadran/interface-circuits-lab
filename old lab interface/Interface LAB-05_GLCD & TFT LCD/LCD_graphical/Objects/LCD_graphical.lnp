@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+".\objects\lcd_graphical.o"
+--strict --scatter ".\Objects\LCD_graphical.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LCD_graphical.map" -o .\Objects\LCD_graphical.axf

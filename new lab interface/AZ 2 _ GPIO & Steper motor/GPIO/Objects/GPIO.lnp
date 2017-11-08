@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\objects\gpio.o"
+".\objects\system_lpc17xx.o"
+".\objects\startup_lpc17xx.o"
+--scatter ".\Objects\GPIO.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\GPIO.map" -o .\Objects\GPIO.axf
